@@ -1,6 +1,7 @@
 import 'package:curriculum/curriculum/widgets/about_widget.dart';
 import 'package:curriculum/curriculum/widgets/education_widget.dart';
 import 'package:curriculum/curriculum/widgets/experience_widget.dart';
+import 'package:curriculum/curriculum/widgets/footer_widget.dart';
 import 'package:curriculum/curriculum/widgets/projects_widget.dart';
 import 'package:curriculum/curriculum/widgets/stacks_widget.dart';
 import 'package:flutter/material.dart';
@@ -30,6 +31,7 @@ class CurriculumPage extends StatelessWidget {
             ExperienceWidget(),
             ProjectsWidget(),
             EducationWidget(),
+            FooterWidget()
           ],
         ),
       ),
